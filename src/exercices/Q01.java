@@ -11,12 +11,8 @@ public class Q01 {
        
         EntityManager em= getEntityManager();
         
-        Client client = em.find(Client.class, 1001);
-        
-        System.out.println( client.getNomcli());
-        
-        
-        
-        
+        Client client=em.find(Client.class,1001L);
+        System.out.print(client.getNumcli()+" ");
+        System.out.println(client.getNomcli());  
     }
 }
