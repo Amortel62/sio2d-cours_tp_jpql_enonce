@@ -1,65 +1,75 @@
-[EL Config]: 2017-11-16 09:47:48.335--ServerSession(27615011)--Thread(Thread[main,5,main])--The access type for the persistent class [class entites.Salarie] is set to [FIELD].
-[EL Config]: 2017-11-16 09:47:48.382--ServerSession(27615011)--Thread(Thread[main,5,main])--The target entity (reference) class for the many to one mapping element [field laFonction] is being defaulted to: class entites.Fonction.
-[EL Config]: 2017-11-16 09:47:48.382--ServerSession(27615011)--Thread(Thread[main,5,main])--The target entity (reference) class for the one to many mapping element [field lesAffectations] is being defaulted to: class entites.Affectation.
-[EL Config]: 2017-11-16 09:47:48.382--ServerSession(27615011)--Thread(Thread[main,5,main])--The access type for the persistent class [class entites.Projet] is set to [FIELD].
-[EL Config]: 2017-11-16 09:47:48.382--ServerSession(27615011)--Thread(Thread[main,5,main])--The target entity (reference) class for the one to many mapping element [field lesAffectations] is being defaulted to: class entites.Affectation.
-[EL Config]: 2017-11-16 09:47:48.382--ServerSession(27615011)--Thread(Thread[main,5,main])--The target entity (reference) class for the many to one mapping element [field leClient] is being defaulted to: class entites.Client.
-[EL Config]: 2017-11-16 09:47:48.382--ServerSession(27615011)--Thread(Thread[main,5,main])--The access type for the persistent class [class entites.Fonction] is set to [FIELD].
-[EL Config]: 2017-11-16 09:47:48.382--ServerSession(27615011)--Thread(Thread[main,5,main])--The target entity (reference) class for the one to many mapping element [field lesSalaries] is being defaulted to: class entites.Salarie.
-[EL Config]: 2017-11-16 09:47:48.382--ServerSession(27615011)--Thread(Thread[main,5,main])--The access type for the persistent class [class entites.Client] is set to [FIELD].
-[EL Config]: 2017-11-16 09:47:48.382--ServerSession(27615011)--Thread(Thread[main,5,main])--The target entity (reference) class for the one to many mapping element [field lesProjets] is being defaulted to: class entites.Projet.
-[EL Config]: 2017-11-16 09:47:48.382--ServerSession(27615011)--Thread(Thread[main,5,main])--The access type for the persistent class [class entites.Affectation] is set to [FIELD].
-[EL Config]: 2017-11-16 09:47:48.382--ServerSession(27615011)--Thread(Thread[main,5,main])--The target entity (reference) class for the many to one mapping element [field leSalarie] is being defaulted to: class entites.Salarie.
-[EL Config]: 2017-11-16 09:47:48.382--ServerSession(27615011)--Thread(Thread[main,5,main])--The target entity (reference) class for the many to one mapping element [field leProjet] is being defaulted to: class entites.Projet.
-[EL Config]: 2017-11-16 09:47:48.382--ServerSession(27615011)--Thread(Thread[main,5,main])--The alias name for the entity class [class entites.Salarie] is being defaulted to: Salarie.
-[EL Config]: 2017-11-16 09:47:48.397--ServerSession(27615011)--Thread(Thread[main,5,main])--The table name for entity [class entites.Salarie] is being defaulted to: SALARIE.
-[EL Config]: 2017-11-16 09:47:48.413--ServerSession(27615011)--Thread(Thread[main,5,main])--The column name for element [nomsal] is being defaulted to: NOMSAL.
-[EL Config]: 2017-11-16 09:47:48.413--ServerSession(27615011)--Thread(Thread[main,5,main])--The column name for element [salaire] is being defaulted to: SALAIRE.
-[EL Config]: 2017-11-16 09:47:48.413--ServerSession(27615011)--Thread(Thread[main,5,main])--The column name for element [numsal] is being defaulted to: NUMSAL.
-[EL Config]: 2017-11-16 09:47:48.413--ServerSession(27615011)--Thread(Thread[main,5,main])--The column name for element [sexe] is being defaulted to: SEXE.
-[EL Config]: 2017-11-16 09:47:48.413--ServerSession(27615011)--Thread(Thread[main,5,main])--The alias name for the entity class [class entites.Projet] is being defaulted to: Projet.
-[EL Config]: 2017-11-16 09:47:48.413--ServerSession(27615011)--Thread(Thread[main,5,main])--The table name for entity [class entites.Projet] is being defaulted to: PROJET.
-[EL Config]: 2017-11-16 09:47:48.413--ServerSession(27615011)--Thread(Thread[main,5,main])--The column name for element [codeproj] is being defaulted to: CODEPROJ.
-[EL Config]: 2017-11-16 09:47:48.413--ServerSession(27615011)--Thread(Thread[main,5,main])--The column name for element [montantDevis] is being defaulted to: MONTANTDEVIS.
-[EL Config]: 2017-11-16 09:47:48.413--ServerSession(27615011)--Thread(Thread[main,5,main])--The column name for element [datefinp] is being defaulted to: DATEFINP.
-[EL Config]: 2017-11-16 09:47:48.413--ServerSession(27615011)--Thread(Thread[main,5,main])--The column name for element [descproj] is being defaulted to: DESCPROJ.
-[EL Config]: 2017-11-16 09:47:48.413--ServerSession(27615011)--Thread(Thread[main,5,main])--The column name for element [datedep] is being defaulted to: DATEDEP.
-[EL Config]: 2017-11-16 09:47:48.413--ServerSession(27615011)--Thread(Thread[main,5,main])--The alias name for the entity class [class entites.Fonction] is being defaulted to: Fonction.
-[EL Config]: 2017-11-16 09:47:48.413--ServerSession(27615011)--Thread(Thread[main,5,main])--The table name for entity [class entites.Fonction] is being defaulted to: FONCTION.
-[EL Config]: 2017-11-16 09:47:48.413--ServerSession(27615011)--Thread(Thread[main,5,main])--The column name for element [codefonct] is being defaulted to: CODEFONCT.
-[EL Config]: 2017-11-16 09:47:48.413--ServerSession(27615011)--Thread(Thread[main,5,main])--The column name for element [libfonct] is being defaulted to: LIBFONCT.
-[EL Config]: 2017-11-16 09:47:48.413--ServerSession(27615011)--Thread(Thread[main,5,main])--The alias name for the entity class [class entites.Client] is being defaulted to: Client.
-[EL Config]: 2017-11-16 09:47:48.413--ServerSession(27615011)--Thread(Thread[main,5,main])--The table name for entity [class entites.Client] is being defaulted to: CLIENT.
-[EL Config]: 2017-11-16 09:47:48.413--ServerSession(27615011)--Thread(Thread[main,5,main])--The column name for element [adrcli] is being defaulted to: ADRCLI.
-[EL Config]: 2017-11-16 09:47:48.413--ServerSession(27615011)--Thread(Thread[main,5,main])--The column name for element [nomcli] is being defaulted to: NOMCLI.
-[EL Config]: 2017-11-16 09:47:48.413--ServerSession(27615011)--Thread(Thread[main,5,main])--The column name for element [numcli] is being defaulted to: NUMCLI.
-[EL Config]: 2017-11-16 09:47:48.413--ServerSession(27615011)--Thread(Thread[main,5,main])--The alias name for the entity class [class entites.Affectation] is being defaulted to: Affectation.
-[EL Config]: 2017-11-16 09:47:48.413--ServerSession(27615011)--Thread(Thread[main,5,main])--The table name for entity [class entites.Affectation] is being defaulted to: AFFECTATION.
-[EL Config]: 2017-11-16 09:47:48.413--ServerSession(27615011)--Thread(Thread[main,5,main])--The column name for element [id] is being defaulted to: ID.
-[EL Config]: 2017-11-16 09:47:48.413--ServerSession(27615011)--Thread(Thread[main,5,main])--The column name for element [pilote] is being defaulted to: PILOTE.
-[EL Config]: 2017-11-16 09:47:48.413--ServerSession(27615011)--Thread(Thread[main,5,main])--The column name for element [dateaff] is being defaulted to: DATEAFF.
-[EL Config]: 2017-11-16 09:47:48.444--ServerSession(27615011)--Thread(Thread[main,5,main])--The primary key column name for the mapping element [field leClient] is being defaulted to: NUMCLI.
-[EL Config]: 2017-11-16 09:47:48.444--ServerSession(27615011)--Thread(Thread[main,5,main])--The foreign key column name for the mapping element [leClient] is being defaulted to: LECLIENT_NUMCLI.
-[EL Config]: 2017-11-16 09:47:48.444--ServerSession(27615011)--Thread(Thread[main,5,main])--The primary key column name for the mapping element [field leSalarie] is being defaulted to: NUMSAL.
-[EL Config]: 2017-11-16 09:47:48.444--ServerSession(27615011)--Thread(Thread[main,5,main])--The foreign key column name for the mapping element [leSalarie] is being defaulted to: LESALARIE_NUMSAL.
-[EL Config]: 2017-11-16 09:47:48.444--ServerSession(27615011)--Thread(Thread[main,5,main])--The primary key column name for the mapping element [field leProjet] is being defaulted to: CODEPROJ.
-[EL Config]: 2017-11-16 09:47:48.444--ServerSession(27615011)--Thread(Thread[main,5,main])--The foreign key column name for the mapping element [leProjet] is being defaulted to: LEPROJET_CODEPROJ.
-[EL Config]: 2017-11-16 09:47:48.444--ServerSession(27615011)--Thread(Thread[main,5,main])--The primary key column name for the mapping element [field laFonction] is being defaulted to: CODEFONCT.
-[EL Info]: 2017-11-16 09:47:48.882--ServerSession(27615011)--Thread(Thread[main,5,main])--EclipseLink, version: Eclipse Persistence Services - 2.3.2.v20111125-r10461
-[EL Fine]: 2017-11-16 09:47:48.96--Thread(Thread[main,5,main])--Detected database platform: org.eclipse.persistence.platform.database.JavaDBPlatform
-[EL Config]: 2017-11-16 09:47:48.991--ServerSession(27615011)--Connection(23014868)--Thread(Thread[main,5,main])--connecting(DatabaseLogin(
+[EL Config]: 2017-11-20 11:40:51.024--ServerSession(22416548)--Thread(Thread[main,5,main])--The access type for the persistent class [class entites.Salarie] is set to [FIELD].
+[EL Config]: 2017-11-20 11:40:51.071--ServerSession(22416548)--Thread(Thread[main,5,main])--The target entity (reference) class for the many to one mapping element [field laFonction] is being defaulted to: class entites.Fonction.
+[EL Config]: 2017-11-20 11:40:51.087--ServerSession(22416548)--Thread(Thread[main,5,main])--The target entity (reference) class for the one to many mapping element [field lesAffectations] is being defaulted to: class entites.Affectation.
+[EL Config]: 2017-11-20 11:40:51.087--ServerSession(22416548)--Thread(Thread[main,5,main])--The access type for the persistent class [class entites.Projet] is set to [FIELD].
+[EL Config]: 2017-11-20 11:40:51.087--ServerSession(22416548)--Thread(Thread[main,5,main])--The target entity (reference) class for the one to many mapping element [field lesAffectations] is being defaulted to: class entites.Affectation.
+[EL Config]: 2017-11-20 11:40:51.087--ServerSession(22416548)--Thread(Thread[main,5,main])--The target entity (reference) class for the many to one mapping element [field leClient] is being defaulted to: class entites.Client.
+[EL Config]: 2017-11-20 11:40:51.087--ServerSession(22416548)--Thread(Thread[main,5,main])--The access type for the persistent class [class entites.Fonction] is set to [FIELD].
+[EL Config]: 2017-11-20 11:40:51.087--ServerSession(22416548)--Thread(Thread[main,5,main])--The target entity (reference) class for the one to many mapping element [field lesSalaries] is being defaulted to: class entites.Salarie.
+[EL Config]: 2017-11-20 11:40:51.087--ServerSession(22416548)--Thread(Thread[main,5,main])--The access type for the persistent class [class entites.Client] is set to [FIELD].
+[EL Config]: 2017-11-20 11:40:51.087--ServerSession(22416548)--Thread(Thread[main,5,main])--The target entity (reference) class for the one to many mapping element [field lesProjets] is being defaulted to: class entites.Projet.
+[EL Config]: 2017-11-20 11:40:51.087--ServerSession(22416548)--Thread(Thread[main,5,main])--The access type for the persistent class [class entites.Affectation] is set to [FIELD].
+[EL Config]: 2017-11-20 11:40:51.087--ServerSession(22416548)--Thread(Thread[main,5,main])--The target entity (reference) class for the many to one mapping element [field leSalarie] is being defaulted to: class entites.Salarie.
+[EL Config]: 2017-11-20 11:40:51.087--ServerSession(22416548)--Thread(Thread[main,5,main])--The target entity (reference) class for the many to one mapping element [field leProjet] is being defaulted to: class entites.Projet.
+[EL Config]: 2017-11-20 11:40:51.102--ServerSession(22416548)--Thread(Thread[main,5,main])--The alias name for the entity class [class entites.Salarie] is being defaulted to: Salarie.
+[EL Config]: 2017-11-20 11:40:51.102--ServerSession(22416548)--Thread(Thread[main,5,main])--The table name for entity [class entites.Salarie] is being defaulted to: SALARIE.
+[EL Config]: 2017-11-20 11:40:51.118--ServerSession(22416548)--Thread(Thread[main,5,main])--The column name for element [nomsal] is being defaulted to: NOMSAL.
+[EL Config]: 2017-11-20 11:40:51.118--ServerSession(22416548)--Thread(Thread[main,5,main])--The column name for element [salaire] is being defaulted to: SALAIRE.
+[EL Config]: 2017-11-20 11:40:51.118--ServerSession(22416548)--Thread(Thread[main,5,main])--The column name for element [numsal] is being defaulted to: NUMSAL.
+[EL Config]: 2017-11-20 11:40:51.118--ServerSession(22416548)--Thread(Thread[main,5,main])--The column name for element [sexe] is being defaulted to: SEXE.
+[EL Config]: 2017-11-20 11:40:51.118--ServerSession(22416548)--Thread(Thread[main,5,main])--The alias name for the entity class [class entites.Projet] is being defaulted to: Projet.
+[EL Config]: 2017-11-20 11:40:51.118--ServerSession(22416548)--Thread(Thread[main,5,main])--The table name for entity [class entites.Projet] is being defaulted to: PROJET.
+[EL Config]: 2017-11-20 11:40:51.118--ServerSession(22416548)--Thread(Thread[main,5,main])--The column name for element [codeproj] is being defaulted to: CODEPROJ.
+[EL Config]: 2017-11-20 11:40:51.118--ServerSession(22416548)--Thread(Thread[main,5,main])--The column name for element [montantDevis] is being defaulted to: MONTANTDEVIS.
+[EL Config]: 2017-11-20 11:40:51.118--ServerSession(22416548)--Thread(Thread[main,5,main])--The column name for element [datefinp] is being defaulted to: DATEFINP.
+[EL Config]: 2017-11-20 11:40:51.118--ServerSession(22416548)--Thread(Thread[main,5,main])--The column name for element [descproj] is being defaulted to: DESCPROJ.
+[EL Config]: 2017-11-20 11:40:51.118--ServerSession(22416548)--Thread(Thread[main,5,main])--The column name for element [datedep] is being defaulted to: DATEDEP.
+[EL Config]: 2017-11-20 11:40:51.118--ServerSession(22416548)--Thread(Thread[main,5,main])--The alias name for the entity class [class entites.Fonction] is being defaulted to: Fonction.
+[EL Config]: 2017-11-20 11:40:51.118--ServerSession(22416548)--Thread(Thread[main,5,main])--The table name for entity [class entites.Fonction] is being defaulted to: FONCTION.
+[EL Config]: 2017-11-20 11:40:51.118--ServerSession(22416548)--Thread(Thread[main,5,main])--The column name for element [codefonct] is being defaulted to: CODEFONCT.
+[EL Config]: 2017-11-20 11:40:51.118--ServerSession(22416548)--Thread(Thread[main,5,main])--The column name for element [libfonct] is being defaulted to: LIBFONCT.
+[EL Config]: 2017-11-20 11:40:51.118--ServerSession(22416548)--Thread(Thread[main,5,main])--The alias name for the entity class [class entites.Client] is being defaulted to: Client.
+[EL Config]: 2017-11-20 11:40:51.118--ServerSession(22416548)--Thread(Thread[main,5,main])--The table name for entity [class entites.Client] is being defaulted to: CLIENT.
+[EL Config]: 2017-11-20 11:40:51.118--ServerSession(22416548)--Thread(Thread[main,5,main])--The column name for element [adrcli] is being defaulted to: ADRCLI.
+[EL Config]: 2017-11-20 11:40:51.118--ServerSession(22416548)--Thread(Thread[main,5,main])--The column name for element [nomcli] is being defaulted to: NOMCLI.
+[EL Config]: 2017-11-20 11:40:51.118--ServerSession(22416548)--Thread(Thread[main,5,main])--The column name for element [numcli] is being defaulted to: NUMCLI.
+[EL Config]: 2017-11-20 11:40:51.118--ServerSession(22416548)--Thread(Thread[main,5,main])--The alias name for the entity class [class entites.Affectation] is being defaulted to: Affectation.
+[EL Config]: 2017-11-20 11:40:51.118--ServerSession(22416548)--Thread(Thread[main,5,main])--The table name for entity [class entites.Affectation] is being defaulted to: AFFECTATION.
+[EL Config]: 2017-11-20 11:40:51.118--ServerSession(22416548)--Thread(Thread[main,5,main])--The column name for element [id] is being defaulted to: ID.
+[EL Config]: 2017-11-20 11:40:51.118--ServerSession(22416548)--Thread(Thread[main,5,main])--The column name for element [pilote] is being defaulted to: PILOTE.
+[EL Config]: 2017-11-20 11:40:51.118--ServerSession(22416548)--Thread(Thread[main,5,main])--The column name for element [dateaff] is being defaulted to: DATEAFF.
+[EL Config]: 2017-11-20 11:40:51.149--ServerSession(22416548)--Thread(Thread[main,5,main])--The primary key column name for the mapping element [field leProjet] is being defaulted to: CODEPROJ.
+[EL Config]: 2017-11-20 11:40:51.149--ServerSession(22416548)--Thread(Thread[main,5,main])--The foreign key column name for the mapping element [leProjet] is being defaulted to: LEPROJET_CODEPROJ.
+[EL Config]: 2017-11-20 11:40:51.149--ServerSession(22416548)--Thread(Thread[main,5,main])--The primary key column name for the mapping element [field laFonction] is being defaulted to: CODEFONCT.
+[EL Config]: 2017-11-20 11:40:51.149--ServerSession(22416548)--Thread(Thread[main,5,main])--The primary key column name for the mapping element [field leClient] is being defaulted to: NUMCLI.
+[EL Config]: 2017-11-20 11:40:51.149--ServerSession(22416548)--Thread(Thread[main,5,main])--The foreign key column name for the mapping element [leClient] is being defaulted to: LECLIENT_NUMCLI.
+[EL Config]: 2017-11-20 11:40:51.149--ServerSession(22416548)--Thread(Thread[main,5,main])--The primary key column name for the mapping element [field leSalarie] is being defaulted to: NUMSAL.
+[EL Config]: 2017-11-20 11:40:51.149--ServerSession(22416548)--Thread(Thread[main,5,main])--The foreign key column name for the mapping element [leSalarie] is being defaulted to: LESALARIE_NUMSAL.
+[EL Info]: 2017-11-20 11:40:51.618--ServerSession(22416548)--Thread(Thread[main,5,main])--EclipseLink, version: Eclipse Persistence Services - 2.3.2.v20111125-r10461
+[EL Fine]: 2017-11-20 11:40:51.712--Thread(Thread[main,5,main])--Detected database platform: org.eclipse.persistence.platform.database.JavaDBPlatform
+[EL Config]: 2017-11-20 11:40:51.743--ServerSession(22416548)--Connection(22137484)--Thread(Thread[main,5,main])--connecting(DatabaseLogin(
 	platform=>JavaDBPlatform
 	user name=> "jee"
 	datasource URL=> "jdbc:derby://localhost:1527/BDD_AppliGP"
 ))
-[EL Config]: 2017-11-16 09:47:48.991--ServerSession(27615011)--Connection(28952668)--Thread(Thread[main,5,main])--Connected: jdbc:derby://localhost:1527/BDD_AppliGP
+[EL Config]: 2017-11-20 11:40:51.743--ServerSession(22416548)--Connection(13154896)--Thread(Thread[main,5,main])--Connected: jdbc:derby://localhost:1527/BDD_AppliGP
 	User: jee
 	Database: Apache Derby  Version: 10.8.3.0 - (1405108)
 	Driver: Apache Derby Network Client JDBC Driver  Version: 10.2.2.1 - (538595)
-[EL Info]: 2017-11-16 09:47:49.054--ServerSession(27615011)--Thread(Thread[main,5,main])--file:/C:/Users/Administrateur/Documents/NetBeansProjects/sio2d-cours_tp_jpql_enonce/build/classes/_PU login successful
-[EL Fine]: 2017-11-16 09:47:49.101--ServerSession(27615011)--Connection(28952668)--Thread(Thread[main,5,main])--SELECT CODEPROJ, DATEDEP, DATEFINP, DESCPROJ, MONTANTDEVIS, LECLIENT_NUMCLI FROM PROJET WHERE (CODEPROJ = ?)
+[EL Info]: 2017-11-20 11:40:51.805--ServerSession(22416548)--Thread(Thread[main,5,main])--file:/C:/Users/Administrateur/Documents/NetBeansProjects/sio2d-cours_tp_jpql_enonce/build/classes/_PU login successful
+[EL Fine]: 2017-11-20 11:40:55.618--ServerSession(22416548)--Connection(13154896)--Thread(Thread[main,5,main])--SELECT DISTINCT t1.NUMSAL, t1.NOMSAL, t1.SALAIRE, t1.SEXE, t1.CODEFONCT, t0.CODEFONCT, t0.LIBFONCT, t2.ID, t2.DATEAFF, t2.PILOTE, t2.LEPROJET_CODEPROJ, t2.LESALARIE_NUMSAL FROM SALARIE t1 LEFT OUTER JOIN AFFECTATION t2 ON (t2.LESALARIE_NUMSAL = t1.NUMSAL), FONCTION t0 WHERE (((t1.SEXE = ?) AND (t1.SALAIRE BETWEEN ? AND ?)) AND (t0.CODEFONCT = t1.CODEFONCT))
+	bind => [M, 100.0, 5000.0]
+[EL Fine]: 2017-11-20 11:40:55.649--ServerSession(22416548)--Connection(13154896)--Thread(Thread[main,5,main])--SELECT CODEPROJ, DATEDEP, DATEFINP, DESCPROJ, MONTANTDEVIS, LECLIENT_NUMCLI FROM PROJET WHERE (CODEPROJ = ?)
 	bind => [Alpha]
-[EL Fine]: 2017-11-16 09:47:49.147--ServerSession(27615011)--Connection(28952668)--Thread(Thread[main,5,main])--SELECT NUMCLI, ADRCLI, NOMCLI FROM CLIENT WHERE (NUMCLI = ?)
+[EL Fine]: 2017-11-20 11:40:55.649--ServerSession(22416548)--Connection(13154896)--Thread(Thread[main,5,main])--SELECT NUMCLI, ADRCLI, NOMCLI FROM CLIENT WHERE (NUMCLI = ?)
 	bind => [1001]
-[EL Fine]: 2017-11-16 09:47:49.382--ServerSession(27615011)--Connection(28952668)--Thread(Thread[main,5,main])--SELECT COUNT(t0.ID) FROM AFFECTATION t0, PROJET t1 WHERE ((t1.CODEPROJ = ?) AND (t0.LEPROJET_CODEPROJ = t1.CODEPROJ)) GROUP BY t1.CODEPROJ, t1.DATEDEP, t1.DATEFINP, t1.DESCPROJ, t1.MONTANTDEVIS, t1.LECLIENT_NUMCLI
-	bind => [Alpha]
+[EL Fine]: 2017-11-20 11:40:55.649--ServerSession(22416548)--Connection(13154896)--Thread(Thread[main,5,main])--SELECT CODEPROJ, DATEDEP, DATEFINP, DESCPROJ, MONTANTDEVIS, LECLIENT_NUMCLI FROM PROJET WHERE (CODEPROJ = ?)
+	bind => [Beta]
+[EL Fine]: 2017-11-20 11:40:55.665--ServerSession(22416548)--Connection(13154896)--Thread(Thread[main,5,main])--SELECT NUMCLI, ADRCLI, NOMCLI FROM CLIENT WHERE (NUMCLI = ?)
+	bind => [1002]
+[EL Fine]: 2017-11-20 11:40:55.665--ServerSession(22416548)--Connection(13154896)--Thread(Thread[main,5,main])--SELECT CODEPROJ, DATEDEP, DATEFINP, DESCPROJ, MONTANTDEVIS, LECLIENT_NUMCLI FROM PROJET WHERE (CODEPROJ = ?)
+	bind => [Gamma]
+[EL Fine]: 2017-11-20 11:40:55.68--ServerSession(22416548)--Connection(13154896)--Thread(Thread[main,5,main])--SELECT NUMCLI, ADRCLI, NOMCLI FROM CLIENT WHERE (NUMCLI = ?)
+	bind => [1003]
+[EL Fine]: 2017-11-20 11:40:55.68--ServerSession(22416548)--Connection(13154896)--Thread(Thread[main,5,main])--SELECT CODEPROJ, DATEDEP, DATEFINP, DESCPROJ, MONTANTDEVIS, LECLIENT_NUMCLI FROM PROJET WHERE (CODEPROJ = ?)
+	bind => [Delta]
