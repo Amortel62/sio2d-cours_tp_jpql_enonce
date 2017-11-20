@@ -13,6 +13,7 @@ public class Q01 {
         
         Client client=em.find(Client.class,1001L);
         System.out.print(client.getNumcli()+" ");
-        System.out.println(client.getNomcli());  
+        System.out.println(client.getNomcli());
+        
     }
 }
